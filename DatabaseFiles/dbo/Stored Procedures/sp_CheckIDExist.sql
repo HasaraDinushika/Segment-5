@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE sp_CheckIDExist
+@id int
+AS
+BEGIN
+	SET NOCOUNT ON;
+	SELECT * FROM Registration WHERE StudentID=@id
+END

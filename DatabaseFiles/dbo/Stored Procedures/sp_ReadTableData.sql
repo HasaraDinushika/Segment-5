@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE sp_ReadTableData
+AS
+BEGIN
+	SELECT * FROM Registration
+END
